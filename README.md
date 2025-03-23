@@ -74,11 +74,10 @@ Ensure the folder structure looks like this:
 
 ```
 /TechTest-EY
-│── /env                     # Virtual environment (opsional, dapat dibuat dengan venv)
-│── etl_pipeline.py          # Skrip ETL utama
-│── postgresql-42.7.4.jar    # Driver PostgreSQL untuk koneksi database
-│── sample_data.json         # Contoh data dalam format JSON
-│── README.md                # Dokumentasi proyek
+│── /env                     
+│── etl_pipeline.py          
+│── postgresql-42.7.4.jar    
+│── sample_data.json         
 
 ```
 
