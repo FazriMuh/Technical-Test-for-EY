@@ -1,0 +1,26 @@
+[
+    {
+    "transaction_id": "T001",
+    "customer_id": "101",
+    "timestamp": "2024-03-01T12:34:56Z",
+    "amount": 100.5,
+    "currency": "USD",
+    "status": "completed"
+    },
+    {
+    "transaction_id": "T002",
+    "customer_id": "102",
+    "timestamp": "2024-03-02T15:20:30Z",
+    "amount": 200.0,
+    "currency": "USD",
+    "status": "failed"
+    },
+    {
+    "transaction_id": "T003",
+    "customer_id": "101",
+    "timestamp": "2024-03-03T18:45:00Z",
+    "amount": 50.75,
+    "currency": "USD",
+    "status": "completed"
+    }
+]
