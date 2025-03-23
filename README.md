@@ -73,11 +73,13 @@ prefect worker start -p "ey_etl_process"
 Ensure the folder structure looks like this:
 
 ```
-/ey_env
 /TechTest-EY
-│   ├── etl_pipeline.py
-│   ├── prefect.yaml (if applicable)
-│   ├── README.md
+│── /env                     # Virtual environment (opsional, dapat dibuat dengan venv)
+│── etl_pipeline.py          # Skrip ETL utama
+│── postgresql-42.7.4.jar    # Driver PostgreSQL untuk koneksi database
+│── sample_data.json         # Contoh data dalam format JSON
+│── README.md                # Dokumentasi proyek
+
 ```
 
 ## Running the ETL Pipeline
