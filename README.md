@@ -91,9 +91,11 @@ prefect deployment run 'etl-pipeline/EY_etl_deployment'
 
 This ensures that the pipeline runs as per the configured schedule while also allowing for manual execution when needed.
 
-## Additional Information
+## Additional Information & Documentation
 
 For more details on running a dedicated Prefect server, refer to the official documentation:
 
 [Prefect Self-Hosting Guide](https://docs.prefect.io/3.0/manage/self-host#self-host-a-prefect-server)
 
+![Home Dashboard](Doc1.png)
+![Runs](Doc2.png)
